@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+function postreq(){
+	var city=document.getElementById("city").value;
+	var latitute=42.3601;//document.getElementById("latitute").value;
+	var longitude=71.0589;//document.getElementById("longitute").value;
+/* $.post("Controller",{"city":city,"latitute":latitute,"longitude":longitude},function(ret){
+	alert(ret);
+	window.location('relief.html?'+ret); */
+	
+	$.post("Controller",{"city":city,"latitute":latitute,"longitude":longitude},function(ret){
+		//alert(ret);
+		window.location('relief.html?'+ret);
+	
+});
+}
+</script>
+</head>
+
+<body>
+
+<div id="input"> 
+City: <input type="text" id="city">
+<!-- Latitute: <input type="text" id="latitute">
+Longitute: <input type="text" id="longitute"> -->
+<button onclick="postreq()">click</button>
+
+</div>
+
+</body>
+</html>

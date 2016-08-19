@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StoreInfo>
+<store id="1">
+<StoreNumber>331814</StoreNumber>
+<StoreName>Oleander Dr</StoreName>
+<Address>4512 Oleander Dr</Address>
+<City>Wilmington</City>
+<State>NC</State>
+<ZipCode>28403</ZipCode>
+<PhoneNumber>(910) 793-6908</PhoneNumber>
+<StoreHours>12:00 PM -06:00 PM</StoreHours>
+<Latitude>34.2095756</Latitude>
+<Longitude>-77.8877435</Longitude>
+<Country>US</Country>     
+</store>
+
+
+<store id="2">
+<StoreNumber>331815</StoreNumber>
+<StoreName>Raeford Rd</StoreName>
+<Address>4129 Raeford Rd</Address>
+<City>Fayetteville</City>
+<State>NC</State>
+<ZipCode>28304</ZipCode>
+<PhoneNumber>(910) 433-3500</PhoneNumber>
+<StoreHours>12:00 PM -06:00 PM</StoreHours>
+<Latitude>31.5336357</Latitude>
+<Longitude>-78.9486916</Longitude>
+<Country>US</Country>
+</store>
+
+</StoreInfo>
